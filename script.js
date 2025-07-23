@@ -1,0 +1,1 @@
+// Aquí puedes agregar interacciones JS más adelante

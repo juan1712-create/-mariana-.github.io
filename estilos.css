@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff0f5;
+    color: #333;
+}
+header {
+    background: #e91e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header .whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    background: #25d366;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nosotras, .catalogo {
+    padding: 20px;
+}
+.catalogo h2, .nosotras h2 {
+    color: #e91e63;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.producto {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
